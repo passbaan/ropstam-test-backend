@@ -1,3 +1,4 @@
-yarn add express jsonwebtoken mongoose mongoose-sequence morgan express-winston winston joi joi-objectid cors bcrypt dotenv
-
-yarn add -D nodemon husky
+ # Instrunctions
+- Install the dependencies
+- Make sure to update the env variables. (I am using gmail for sending mails. You can use your creds.)
+- Start using `npm run start` or `yarn start`
