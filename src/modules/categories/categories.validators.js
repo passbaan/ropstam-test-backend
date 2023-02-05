@@ -10,7 +10,7 @@ module.exports = {
 
   getOneCategory: (req, res, next) => {
     req.requirements = {
-      param: genericSchemas.objectId,
+      params: genericSchemas.objectId,
     };
     next();
   },
@@ -35,7 +35,7 @@ module.exports = {
   },
   deleteCategory: (req, res, next) => {
     req.requirements = {
-      param: genericSchemas.objectId,
+      params: genericSchemas.objectId,
     };
     next();
   },

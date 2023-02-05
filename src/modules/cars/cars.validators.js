@@ -30,7 +30,7 @@ module.exports = {
 
   getCarById: (req, res, next) => {
     req.requirements = {
-      param: genericSchemas.objectId,
+      params: genericSchemas.objectId,
     };
     next();
   },
@@ -55,7 +55,7 @@ module.exports = {
   },
   deleteCar: (req, res, next) => {
     req.requirements = {
-      param: genericSchemas.objectId,
+      params: genericSchemas.objectId,
     };
     next();
   },

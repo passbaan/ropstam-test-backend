@@ -28,7 +28,7 @@ const getOneCategory = async (req, res) => {
   if (!cat) {
     return responseHelper(res).notFound('Category not found');
   }
-  return responseHelper.success(cat);
+  return responseHelper(res).success(cat);
 };
 //
 const createCategory = async (req, res) => {
